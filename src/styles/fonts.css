@@ -1,0 +1,37 @@
+/* Kinopoisk */
+@font-face {
+  font-family: 'Kinopoisk';
+  src: url('../assets/fonts/kinopoisk-light.woff2');
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'Kinopoisk';
+  src: url('../assets/fonts/kinopoisk-regular.woff2');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Kinopoisk';
+  src: url('../assets/fonts/kinopoisk-medium.woff2');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'Kinopoisk';
+  src: url('../assets/fonts/kinopoisk-semibold.woff2');
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'Kinopoisk';
+  src: url('../assets/fonts/kinopoisk-bold.woff2');
+  font-weight: 700;
+}
+
+/* Futura */
+@font-face {
+  font-family: 'Futura';
+  src: url('../assets/fonts/futura-bold.woff2');
+  font-weight: bold;
+}

@@ -1,0 +1,62 @@
+@import './fonts.css';
+@import './shared.css';
+
+:root {
+  /* COLORS */
+  --color-black: #000;
+  --color-black-light: #333333;
+  --color-white: #fff;
+  --color-orange: #ffcc64;
+  --color-orange-deep: #f5a708;
+
+  /* SEMANTICS */
+  --color-text: var(--color-black);
+  --color-background: var(--color-white);
+  --color-active: var(--color-orange-deep);
+
+  /* OTHERS */
+  --container-width: 1440px;
+  --container-padding: 3.2rem;
+  --transition-duration: 0.2s;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+body {
+  min-height: 100vh;
+  color: var(--color-text);
+  background: var(--color-background);
+  font-size: 1.6rem;
+  line-height: 1.6;
+  font-family: 'Kinopoisk', 'Helvetica Neue', sans-serif;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+}
