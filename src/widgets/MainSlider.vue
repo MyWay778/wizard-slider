@@ -130,6 +130,7 @@ export default {
       rgba(255, 255, 255, 0) 12%
     ),
     center / cover url(/images/sky.webp) no-repeat;
+  touch-action: pan-y;
 }
 
 .container._main-slider {
@@ -220,7 +221,6 @@ export default {
   display: flex;
   position: absolute;
   inset: 0;
-  /* z-index: 2; */
 }
 
 .main-slider-slide {
@@ -235,12 +235,10 @@ export default {
   top: 35%;
   left: 50%;
   transform: translateX(-50%);
-  /* z-index: -1; */
 }
 
 .main-slider-slide__image-clouds {
   position: absolute;
-  /* z-index: 2; */
   width: 100%;
   height: 100%;
   object-fit: cover;
