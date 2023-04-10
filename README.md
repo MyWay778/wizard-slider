@@ -2,6 +2,8 @@
 
 Слайдер на Vue.js
 
+Деплой: https://myway778.github.io/wizard-slider/
+
 ## Установка проекта
 
 ```sh
