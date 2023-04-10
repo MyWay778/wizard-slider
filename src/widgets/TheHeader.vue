@@ -8,8 +8,8 @@ export default {
   <header class="header">
     <div class="container container_header">
       <div class="logo">
-        <a class="logo__link" href="/">
-          <img src="/images/logo.svg" />
+        <a class="logo__link" href="/" aria-label="На главную">
+          <img src="/images/logo.svg" width="183" height="26" alt="Логотип КиноПоиск" />
         </a>
       </div>
     </div>

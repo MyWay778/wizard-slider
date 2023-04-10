@@ -29,7 +29,8 @@ export default {
     <button
       class="main-slider-controls-button"
       @click="$emit('prev-slide')"
-      :disabled="prevDisabled">
+      :disabled="prevDisabled"
+      aria-label="Предыдущий слайд">
       <ArrowVue class="main-slider-controls-button__arrow _left" :width="1.6" />
     </button>
 
@@ -37,7 +38,8 @@ export default {
     <button
       class="main-slider-controls-button"
       @click="$emit('next-slide')"
-      :disabled="nextDisabled">
+      :disabled="nextDisabled"
+      aria-label="Следующий слайд">
       <ArrowVue class="main-slider-controls-button__arrow" :width="1.6" />
     </button>
   </div>

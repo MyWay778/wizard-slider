@@ -5,7 +5,7 @@ export default {
 </script>
 
 <template>
-  <button class="burger-button">
+  <button class="burger-button" aria-label="Меню">
     <span class="burger-button__line"></span>
     <span class="burger-button__line"></span>
     <span class="burger-button__line"></span>

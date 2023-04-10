@@ -112,7 +112,7 @@ export default {
       <img
         ref="background"
         class="main-slider-middle-background"
-        src="/images/clouds.png"
+        src="/images/clouds.webp"
         alt="Облака" />
     </div>
   </section>
@@ -129,7 +129,7 @@ export default {
       rgba(255, 255, 255, 0.8) 6%,
       rgba(255, 255, 255, 0) 12%
     ),
-    center / cover url(/images/sky.png) no-repeat;
+    center / cover url(/images/sky.webp) no-repeat;
 }
 
 .container._main-slider {
